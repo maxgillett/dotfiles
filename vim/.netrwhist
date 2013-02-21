@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/Max/Documents/NodeApps/Balloons.IO/routes'
+let g:netrw_dirhist_2='/Users/Max/Documents/Web/RailsApps/bitcast/lib/retina/.git'
+let g:netrw_dirhist_3='/Users/Max/Documents/Web/RailsApps/bitcast/.git'
+let g:netrw_dirhist_4='/Users/Max/Documents/Web/Projects/tavt-manual/manual'
