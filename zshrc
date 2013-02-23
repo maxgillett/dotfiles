@@ -51,4 +51,6 @@ alias subl="subl"
 
 alias valgrind="valgrind"
 
+alias rm="rm -i"
+
 JASMINE_BROWSER="chrome"
