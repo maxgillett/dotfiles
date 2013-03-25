@@ -1,6 +1,9 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
+# Options
+setopt NO_BEEP
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -36,7 +39,9 @@ source $ZSH/oh-my-zsh.sh
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
 # Customize to your needs...
-export PATH=/Users/Max/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Max/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Max/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Max/.rvm/bin:usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/git/bin:/opt/local/bin/
+export PATH=/Users/Max/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Max/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Max/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Max/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/git/bin:/opt/local/bin/
+
+export SBT_OPTS="-XX:+CMSClassUnloadingEnabled -XX:PermSize=256M -XX:MaxPermSize=512M"
 
 alias railsapps="cd ~/Documents/RailsApps"
 alias gems="cd ~/Documents/Web/Gems"
