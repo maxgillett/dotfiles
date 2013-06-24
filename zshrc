@@ -32,30 +32,37 @@ ZSH_THEME="kennethreitz"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git macports screen)
+plugins=(git screen)
 
 alias rvm-prompt=$HOME/.rvm/bin/rvm-prompt
 source $ZSH/oh-my-zsh.sh
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
 # Customize to your needs...
-export PATH=/Users/Max/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Max/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Max/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Max/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/git/bin:/opt/local/bin/
+export PATH=/Users/Max/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Max/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Max/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Max/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/git/bin:/opt/local/bin:/Applications/Eyelink
 
+# Scala sbt compiler options
 export SBT_OPTS="-XX:+CMSClassUnloadingEnabled -XX:PermSize=256M -XX:MaxPermSize=512M"
 
-alias railsapps="cd ~/Documents/RailsApps"
+alias -s html=vim js=vim py=vim  scss=vim  css=vim erb=vim coffee=vim scala=vim m=vim 
+alias railsapps="cd ~/Documents/Web/RailsApps"
 alias gems="cd ~/Documents/Web/Gems"
-
 alias nf="nocorrect nf"
-
-alias vi="open \"mvim://open?url=file://$1\""
-
 alias rspec="rspec"
-
-alias subl="subl"
-
 alias valgrind="valgrind"
-
 alias rm="rm -i"
 
 JASMINE_BROWSER="chrome"
+
+# Python virtualenv configuration
+export WORKON_HOME=$HOME/.virtualenvs
+export PIP_VIRTUALENV_BASE=$WORKON_HOME
+export PIP_RESPECT_VIRTUALENV=true
+
+# Activate a virtualenv environment
+alias scicompenv="source ~/.virtualenvs/scicomputing/bin/activate"
+alias hackenv="source ~/.virtualenvs/hackenv/bin/activate"
+
+# Strip the following data before uploading to github
+export SAUCE_USERNAME=***
+export SAUCE_ACCESS_KEY=***
