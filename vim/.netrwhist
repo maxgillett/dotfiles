@@ -1,7 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/Max/Documents/NodeApps/Balloons.IO/routes'
-let g:netrw_dirhist_2='/Users/Max/Documents/Web/RailsApps/bitcast/lib/retina/.git'
-let g:netrw_dirhist_3='/Users/Max/Documents/Web/RailsApps/bitcast/.git'
-let g:netrw_dirhist_4='/Users/Max/Documents/Web/Projects/tavt-manual/manual'
-let g:netrw_dirhist_5='/Users/Max/.oh-my-zsh'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='sftp://gilletmh@studentorgs.vanderbilt.edu//'
+let g:netrw_dirhist_2='sftp://gilletmh@studentorgs.vanderbilt.edu/studentorgs.vanderbilt.edu/html/GammaBetaPhi//'
+let g:netrw_dirhist_3='sftp://gilletmh@studentorgs.vanderbilt.edu/studentorgs.vanderbilt.edu/html/GammaBetaPhi/'
+let g:netrw_dirhist_4='sftp://gilletmh@studentorgs.vanderbilt.edu/studentorgs.vanderbilt.edu/html/GammaBetaPhi//'
+let g:netrw_dirhist_5='sftp://gilletmh@studentorgs.vanderbilt.edu/studentorgs.vanderbilt.edu/html/GammaBetaPhi/'
+let g:netrw_dirhist_6='sftp://gilletmh@studentorgs.vanderbilt.edu/studentorgs.vanderbilt.edu/html/GammaBetaPhi/new//'
+let g:netrw_dirhist_7='sftp://gilletmh@studentorgs.vanderbilt.edu/html/GammaBetaPhi/new//'
+let g:netrw_dirhist_8='sftp://gilletmh@studentorgs.vanderbilt.edu//'

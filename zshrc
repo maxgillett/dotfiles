@@ -35,12 +35,12 @@ ZSH_THEME="kennethreitz"
 plugins=(git screen)
 
 alias rvm-prompt=$HOME/.rvm/bin/rvm-prompt
+eval "$(hub alias -s)" 
 source $ZSH/oh-my-zsh.sh
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
 # Customize to your needs...
-export PATH=/Users/Max/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Max/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Max/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Max/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/git/bin:/opt/local/bin:/Applications/Eyelink
-
+export PATH=/Applications/Postgres.app/Contents/MacOS/bin:/Users/Max/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Max/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Max/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Max/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/git/bin:/opt/local/bin:/Applications/Eyelink
 # Scala sbt compiler options
 export SBT_OPTS="-XX:+CMSClassUnloadingEnabled -XX:PermSize=256M -XX:MaxPermSize=512M"
 
@@ -51,6 +51,12 @@ alias nf="nocorrect nf"
 alias rspec="rspec"
 alias valgrind="valgrind"
 alias rm="rm -i"
+
+# Git aliases
+alias gpum="git pull upstream master"
+alias gmm="git merge master"
+alias gc="git checkout"
+alias gpo="git push origin"
 
 JASMINE_BROWSER="chrome"
 
@@ -64,5 +70,5 @@ alias scicompenv="source ~/.virtualenvs/scicomputing/bin/activate"
 alias hackenv="source ~/.virtualenvs/hackenv/bin/activate"
 
 # Strip the following data before uploading to github
-export SAUCE_USERNAME=***
-export SAUCE_ACCESS_KEY=***
+export SAUCE_USERNAME=0
+export SAUCE_ACCESS_KEY=0
