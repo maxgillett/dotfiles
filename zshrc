@@ -40,7 +40,7 @@ source $ZSH/oh-my-zsh.sh
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
 # Customize to your needs...
-export PATH=/Applications/Postgres.app/Contents/MacOS/bin:/Users/Max/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Max/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Max/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Max/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/git/bin:/opt/local/bin:/Applications/Eyelink
+export PATH=/Applications/Postgres.app/Contents/MacOS/bin:/Users/Max/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/git/bin:/opt/local/bin:/Applications/Eyelink
 # Scala sbt compiler options
 export SBT_OPTS="-XX:+CMSClassUnloadingEnabled -XX:PermSize=256M -XX:MaxPermSize=512M"
 
@@ -52,11 +52,15 @@ alias rspec="rspec"
 alias valgrind="valgrind"
 alias rm="rm -i"
 
-# Git aliases
+# Git asiases
+alias gco="git checkout"
 alias gpum="git pull upstream master"
-alias gmm="git merge master"
-alias gc="git checkout"
-alias gpo="git push origin"
+alias ga="git add" 
+alias gcm="git commit -m"
+
+
+# Rspec aliases
+alias zspec="zeus rspec spec"
 
 JASMINE_BROWSER="chrome"
 
