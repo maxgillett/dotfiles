@@ -1,0 +1,30 @@
+[submodule "vim/bundle/Vim-R-plugin"]
+	path = vim/bundle/Vim-R-plugin
+	url = https://github.com/vim-scripts/Vim-R-plugin.git
+[submodule "vim/bundle/julia-vim"]
+	path = vim/bundle/julia-vim
+	url = git://github.com/JuliaLang/julia-vim.git
+[submodule "vim/bundle/tagbar"]
+	path = vim/bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "vim/bundle/vim-flake8"]
+	path = vim/bundle/vim-flake8
+	url = https://github.com/nvie/vim-flake8.git
+[submodule "vim/bundle/vim-ipython"]
+	path = vim/bundle/vim-ipython
+	url = https://github.com/ivanov/vim-ipython.git
+[submodule "vim/bundle/vim-markdown"]
+	path = vim/bundle/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "vim/bundle/vim-pandoc"]
+	path = vim/bundle/vim-pandoc
+	url = git@github.com:vim-pandoc/vim-pandoc.git
+[submodule "vim/bundle/vim-solidity"]
+	path = vim/bundle/vim-solidity
+	url = https://github.com/tomlion/vim-solidity.git
+[submodule "vim/bundle/vim-vertical-move"]
+	path = vim/bundle/vim-vertical-move
+	url = git://github.com/bruno-/vim-vertical-move.git
+[submodule "vim/bundle/vim-virtualenv"]
+	path = vim/bundle/vim-virtualenv
+	url = https://github.com/jmcantrell/vim-virtualenv.git
