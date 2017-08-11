@@ -2,6 +2,8 @@
 *.swp
 *.swo
 
+.DS_STORE
+
 vim/temp/*
 vim/.netrwhist
 
